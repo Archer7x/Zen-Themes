@@ -25,7 +25,7 @@
     },
     {
         "property": "theme.customstatusbar.color_background",
-        "label": "Sets the border color. Hex or var(--zen-colors-border)",
+        "label": "Sets the border color. Hex or var(--zen-colors-tertiary)",
         "type": "string",
         "defaultValue": "var(--zen-colors-tertiary)",
         "placeholder": "var(--zen-colors-tertiary)",
