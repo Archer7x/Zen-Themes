@@ -7,7 +7,7 @@ This **Zen Mod** allows you to adjust the rounding, margin, border thickness and
 # Usage example
   - You can customize the margin: "8px"
   - You can customize the edgerounding: "100px"
-  - You can customize the border-thickness "1px"
+  - You can customize the border-thickness "2px"
   - You can customize the text, boder and background color: "#0e03ad"
 
 ## Custom colors
@@ -24,7 +24,7 @@ Do not enter >""< just inside >#0e03ad<
 ## Settings (checkbox in Zens Mod settings):
   - Set the margin (default "8px")
   - Set the edgerounding (default "100px")
-  - Set the border-thickness (default "1px")
+  - Set the border-thickness (default "2px")
   - Set the text-color (default "var(--lwt-text-color)")
   - Set the border-color (default "var(--zen-colors-border)")
   - Set the background-color (default "var(--zen-colors-tertiary)")
