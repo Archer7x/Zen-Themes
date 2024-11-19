@@ -1,0 +1,18 @@
+[
+    {
+        "property": "theme.customstatusbar.radius",
+        "label": "Round the corners. (exaple: 1000px)",
+        "type": "string",
+        "defaultValue": "1000px",
+        "placeholder": "1000px",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.customstatusbar.margin",
+        "label": "Sets the margin. (exaple: 10px)",
+        "type": "string",
+        "defaultValue": "10px",
+        "placeholder": "10px",
+        "disabledOn": []
+    }
+]
