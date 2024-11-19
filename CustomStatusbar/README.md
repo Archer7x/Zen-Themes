@@ -21,8 +21,8 @@ You can also use your theme colors: "var(--zen-colors-border)"
 Do not enter >""< just inside >#0e03ad<
 
 ## Settings (checkbox in Zens Mod settings):
-  - Set the margin (default 8px)
-  - Set the edgerounding (default 100px)
+  - Set the margin (default "8px")
+  - Set the edgerounding (default "100px")
   - Set the text-color (default "var(--lwt-text-color)")
   - Set the border-color (default "var(--zen-colors-border)")
   - Set the background-color (default "var(--zen-colors-tertiary)")
