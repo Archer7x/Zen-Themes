@@ -17,10 +17,10 @@
     },
     {
         "property": "theme.customstatusbar.border_thickness",
-        "label": "Set the thickness of the border. '1px'",
+        "label": "Set the thickness of the border. '2px'",
         "type": "string",
-        "defaultValue": "1px",
-        "placeholder": "1px",
+        "defaultValue": "2px",
+        "placeholder": "2px",
         "disabledOn": []
     },
     {
