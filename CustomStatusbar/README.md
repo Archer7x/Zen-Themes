@@ -5,6 +5,7 @@ This **Zen Mod** allows you to adjust the rounding, margin and colour of the sta
 ![image]()
 
 # Usage example
+<<<<<<< Updated upstream
   - You can customize the margin: "8px"
   - You can customize the edgerounding: "100px"
   - You can customize the boder and background color: "#0e03ad"
@@ -19,6 +20,11 @@ You can even use a color gradiant [tool](https://cssgradient.io/) like this: "li
 You can also use your theme colors: "var(--zen-colors-border)"
 
 Do not enter >""< just inside >#0e03ad<
+=======
+  - You can customize the whole look of the statusbar.
+  - For the colors you can use HEX: '#0e03ad' or 'rgba(138, 8, 203, 0.5)' or 'var(--zen-colors-border)'
+  You can also use your theme colors like: 'var(--zen-colors-border)'
+>>>>>>> Stashed changes
 
 ## Settings (checkbox in Zens Mod settings):
   - Set the margin (default 8px)
