@@ -2,7 +2,7 @@
 
 This **Zen Mod** allows you to adjust the rounding, margin and colour of the statusbar.
 
-![image](https://raw.githubusercontent.com/Archer7x/Zen-Themes/refs/heads/main/CustomStatusbar/image.png)
+![image](https://github.com/Archer7x/Zen-Themes/blob/main/CustomStatusbar/image.png?raw=true)
 
 # Usage example
   - You can customize the margin: "8px"
