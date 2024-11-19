@@ -17,7 +17,7 @@
     },
     {
         "property": "theme.customstatusbar.color_border",
-        "label": "Sets the border color. Hex or var(--zen-colors-border)",
+        "label": "Sets the border color. '#0e03ad', 'rgba(138, 8, 203, 0.5)' or 'var(--zen-colors-border)'",
         "type": "string",
         "defaultValue": "var(--zen-colors-border)",
         "placeholder": "var(--zen-colors-border)",
@@ -25,7 +25,7 @@
     },
     {
         "property": "theme.customstatusbar.color_background",
-        "label": "Sets the background color. Hex or var(--zen-colors-tertiary)",
+        "label": "Sets the background color. '#a403ad', 'rgba(92, 13, 202, 0.5)' or 'var(--zen-colors-tertiary)'",
         "type": "string",
         "defaultValue": "var(--zen-colors-tertiary)",
         "placeholder": "var(--zen-colors-tertiary)",
