@@ -14,7 +14,7 @@ You can use HEX: "#0e03ad"
 
 If you want transparency use rgba: "rgba(138, 8, 203, 0.5)"
 
-You can even use a color gradiant like this: "linear-gradient(45deg, rgba(7,27,120,1) 0%, rgba(125,15,200,1) 100%)"
+You can even use a color gradiant [tool](https://cssgradient.io/) like this: "linear-gradient(45deg, rgba(7,27,120,1) 0%, rgba(125,15,200,1) 100%)"
 
 You can also use your theme colors: "var(--zen-colors-border)"
 
