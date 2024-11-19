@@ -1,7 +1,7 @@
 [
     {
         "property": "theme.customstatusbar.radius",
-        "label": "Round the corners. (exaple: 1000px)",
+        "label": "Round the corners. (default: 1000px)",
         "type": "string",
         "defaultValue": "1000px",
         "placeholder": "1000px",
@@ -9,15 +9,23 @@
     },
     {
         "property": "theme.customstatusbar.margin",
-        "label": "Sets the margin. (exaple: 10px)",
+        "label": "Set the margin. (default: 8px)",
         "type": "string",
-        "defaultValue": "10px",
-        "placeholder": "10px",
+        "defaultValue": "8px",
+        "placeholder": "8px",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.customstatusbar.border_thickness",
+        "label": "Set the thickness of the border. '1px'",
+        "type": "string",
+        "defaultValue": "1px",
+        "placeholder": "1px",
         "disabledOn": []
     },
     {
         "property": "theme.customstatusbar.color_border",
-        "label": "Sets the border color. '#0e03ad', 'rgba(138, 8, 203, 0.5)' or 'var(--zen-colors-border)'",
+        "label": "Set the border color. '#0e03ad' or 'var(--zen-colors-border)'",
         "type": "string",
         "defaultValue": "var(--zen-colors-border)",
         "placeholder": "var(--zen-colors-border)",
@@ -25,10 +33,18 @@
     },
     {
         "property": "theme.customstatusbar.color_background",
-        "label": "Sets the background color. '#a403ad', 'rgba(92, 13, 202, 0.5)' or 'var(--zen-colors-tertiary)'",
+        "label": "Set the background color. '#a403ad' or 'var(--zen-colors-tertiary)'",
         "type": "string",
         "defaultValue": "var(--zen-colors-tertiary)",
         "placeholder": "var(--zen-colors-tertiary)",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.customstatusbar.text_color",
+        "label": "Set the text color. '#a403ad' or 'var(--lwt-text-color)'",
+        "type": "string",
+        "defaultValue": "var(--lwt-text-color)",
+        "placeholder": "var(--lwt-text-color)",
         "disabledOn": []
     }
 ]
