@@ -14,5 +14,21 @@
         "defaultValue": "10px",
         "placeholder": "10px",
         "disabledOn": []
+    },
+    {
+        "property": "theme.customstatusbar.color_border",
+        "label": "Sets the border color. Hex or var(--zen-colors-border)",
+        "type": "string",
+        "defaultValue": "var(--zen-colors-border)",
+        "placeholder": "var(--zen-colors-border)",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.customstatusbar.color_background",
+        "label": "Sets the border color. Hex or var(--zen-colors-border)",
+        "type": "string",
+        "defaultValue": "var(--zen-colors-tertiary)",
+        "placeholder": "var(--zen-colors-tertiary)",
+        "disabledOn": []
     }
 ]
