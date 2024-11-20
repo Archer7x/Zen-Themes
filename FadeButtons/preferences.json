@@ -1,0 +1,16 @@
+[
+    {
+        "property": "theme.fadebuttons.extensions_button",
+        "label": "extensions_button",
+        "type": "checkbox",
+        "defaultValue": true,
+        "disabledOn": []
+    },
+    {
+        "property": "theme.fadebuttons.page_action_buttons",
+        "label": "page_action_buttons",
+        "type": "checkbox",
+        "defaultValue": true,
+        "disabledOn": []
+    }
+]

@@ -1,0 +1,79 @@
+/* Hide urlbar buttons unless hovered */
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* fades too late
+#nav-bar:hover{
+  #urlbar-input {
+      animation: fadeOut 0.1s ease-out 0.2 !important; animation: fadeIn 0.3s ease-in 0.2s !important;
+  }
+}
+*/
+#nav-bar:not(:has(*[open="true"])) {
+  &:not(:hover) {
+    #page-action-buttons,
+    #identity-box,
+    #tracking-protection-icon-container {
+      animation: fadeOut 0.5s forwards !important;
+    }
+  }
+
+  &:hover {
+    #page-action-buttons,
+    #identity-box,
+    #tracking-protection-icon-container {
+      display: inherit !important; /* Oder ein anderer geeigneter Display-Wert */
+      animation: fadeIn 0.5s forwards !important;
+    }
+  }
+}
+
+#nav-bar:not(:has(*[open="true"])):not(:hover) {
+  #page-action-buttons,
+  #identity-box,
+  #tracking-protection-icon-container {
+    display: none !important;
+    animation-delay: 0.5s;
+  }
+}
+
+/* unnessesary
+#nav-bar:not(:has(*[open="true"])):not(:hover) #page-action-buttons,
+#nav-bar:not(:has(*[open="true"])):not(:hover) #identity-box,
+#nav-bar:not(:has(*[open="true"])):not(:hover) #tracking-protection-icon-container {
+  display: none !important;
+  animation-delay: 0.5s;
+}
+*/
+
+/* Hide extension buttons unless hovered */
+#nav-bar:not(:has(*[open="true"])) {
+  #unified-extensions-button,
+  #page-action-buttons,
+  #identity-box,
+  #tracking-protection-icon-container,
+  .unified-extensions-item {
+    transition: opacity 0.5s !important;
+  }
+
+  &:not(:hover) {
+    #unified-extensions-button,
+    #page-action-buttons,
+    #identity-box,
+    #tracking-protection-icon-container,
+    .unified-extensions-item {
+      opacity: 0 !important;
+    }
+  }
+}
