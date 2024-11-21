@@ -1,0 +1,48 @@
+#nav-bar {
+    #urlbar:not([breakout-extend="true"]) {
+
+        /* Unless urlbar is opened */
+        #urlbar-background::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, #0903b866, #c0074866, #0903b866);
+            background-size: 200% 100%;
+            animation: urlbar-loading-gradient 1.5s linear reverse infinite;
+            /* animation speed 1.5s */
+            animation-play-state: paused;
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+    }
+
+    &:has(#reload-button[displaystop="true"]) {
+
+        /* When 'Stop' button is shown isntead of 'Reload' */
+        #urlbar-background::before {
+            animation-play-state: running;
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes urlbar-loading-gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 200% 0%;
+    }
+}
+
+/* === Transparent Sidebar === */
+#sidebar-box {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+}
+
+.sidebar-panel[lwt-sidebar] {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+}
