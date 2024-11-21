@@ -1,0 +1,38 @@
+/* === Hide the Workspace Indicator === */
+/*
+@media (-moz-bool-pref: "theme.workspaceindicator.hide_icon") {
+  #zen-current-workspace-indicator-icon {
+    display: none !important;
+  }
+
+  #zen-current-workspace-indicator-name {
+    padding-top: var(--theme-workspaceindicator-padding_top) !important;
+    left: -10px !important;
+  }
+}
+*/
+
+body:has(#theme-workspaceindicator[theme_workspaceindicator_hide="hide_icon"]){
+  #zen-current-workspace-indicator-icon {
+    display: none !important;
+  }
+
+  #zen-current-workspace-indicator-name {
+    padding-top: var(--theme-workspaceindicator-padding_top) !important;
+    left: -10px !important;
+  }
+}
+
+@media (-moz-bool-pref: "theme.workspaceindicator.hide_all") {
+  #zen-current-workspace-indicator {
+    Display: none !important;
+  }
+
+  #zen-essentials-container {
+    padding-bottom: var(--theme-workspaceindicator-essentials_padding) !important;
+  }
+
+  :root:not([customizing]) .zen-workspace-sidebar-icon {
+    display: none !important;
+  }
+}

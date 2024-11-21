@@ -1,0 +1,47 @@
+[
+    {
+        "property": "theme.workspaceindicator.hide_icon",
+        "label": "Hide the icon only.",
+        "type": "checkbox",
+        "defaultValue": "false",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.workspaceindicator.hide_all",
+        "label": "Hide the entire workspace indicator.",
+        "type": "checkbox",
+        "defaultValue": "false",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.workspaceindicator.padding_top",
+        "label": "Set the top padding. (default: 10px)",
+        "type": "string",
+        "defaultValue": "10px",
+        "placeholder": "10px",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.workspaceindicator.essentials_padding",
+        "label": "Set the essentials padding. (default: 3px)",
+        "type": "string",
+        "defaultValue": "3px",
+        "placeholder": "3px",
+        "disabledOn": []
+    },
+    {
+        "property": "theme.workspaceindicator.hide",
+        "label": "What to hide?",
+        "type": "dropdown",
+        "options": [
+            {
+                "label": "Icon only",
+                "value": "hide_icon"
+            },
+            {
+                "label": "Hide all",
+                "value": "hide_all"
+            }
+        ]
+    }
+]
