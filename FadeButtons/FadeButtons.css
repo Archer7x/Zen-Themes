@@ -1,3 +1,18 @@
+/* Left urlbar buttons colors fix */
+#identity-permission-box,
+#identity-icon-box {
+  background: rgba(0, 0, 0, 0) !important;
+}
+#identity-permission-box:hover,
+#identity-icon-box:hover {
+  background: var(--toolbarbutton-hover-background) !important;
+}
+
+/* Adds 5px padding to the url-input if focused (visual fix)*/
+#urlbar-input[aria-expanded="true"] {
+  padding-left: 5px !important;
+}
+
 /* Hide urlbar buttons unless hovered */
 @keyframes fadeOut {
   to {
@@ -9,19 +24,15 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
-/* fades too late
-#nav-bar:hover{
-  #urlbar-input {
-      animation: fadeOut 0.1s ease-out 0.2 !important; animation: fadeIn 0.3s ease-in 0.2s !important;
-  }
-}
-*/
+
 #nav-bar:not(:has(*[open="true"])) {
   &:not(:hover) {
+
     #page-action-buttons,
     #identity-box,
     #tracking-protection-icon-container {
@@ -30,16 +41,19 @@
   }
 
   &:hover {
+
     #page-action-buttons,
     #identity-box,
     #tracking-protection-icon-container {
-      display: inherit !important; /* Oder ein anderer geeigneter Display-Wert */
+      display: inherit !important;
+      /* Oder ein anderer geeigneter Display-Wert */
       animation: fadeIn 0.5s forwards !important;
     }
   }
 }
 
 #nav-bar:not(:has(*[open="true"])):not(:hover) {
+
   #page-action-buttons,
   #identity-box,
   #tracking-protection-icon-container {
@@ -48,17 +62,9 @@
   }
 }
 
-/* unnessesary
-#nav-bar:not(:has(*[open="true"])):not(:hover) #page-action-buttons,
-#nav-bar:not(:has(*[open="true"])):not(:hover) #identity-box,
-#nav-bar:not(:has(*[open="true"])):not(:hover) #tracking-protection-icon-container {
-  display: none !important;
-  animation-delay: 0.5s;
-}
-*/
-
 /* Hide extension buttons unless hovered */
 #nav-bar:not(:has(*[open="true"])) {
+
   #unified-extensions-button,
   #page-action-buttons,
   #identity-box,
@@ -68,6 +74,7 @@
   }
 
   &:not(:hover) {
+
     #unified-extensions-button,
     #page-action-buttons,
     #identity-box,
