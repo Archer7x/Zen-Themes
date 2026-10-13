@@ -15,6 +15,14 @@
         "placeholder": "8px",
         "disabledOn": []
     },
+	{
+        "property": "theme.customstatusbar.padding",
+        "label": "Set the padding. (default: 2px 10px)",
+        "type": "string",
+        "defaultValue": "2px 10px",
+        "placeholder": "2px 10px",
+        "disabledOn": []
+    },
     {
         "property": "theme.customstatusbar.border_thickness",
         "label": "Set the thickness of the border. '2px'",
